@@ -1,0 +1,10 @@
+template(name="layout")
+  +navbar
+  +yield
+
+template(name="navbar")
+  .navbar
+    .navbarLogo
+      | Systm
+    .loginButtons
+      {{> loginButtons align="right"}}
